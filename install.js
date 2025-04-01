@@ -33,7 +33,7 @@ console.log("Installing dependencies...");
 execSync("npm install", { stdio: "inherit" }); // Change to `yarn install` or `pnpm install` if needed
 
 // Run additional setup commands (optional)
-console.log("Running setup...");
-execSync("npm run setup", { stdio: "inherit" }); // Replace with actual setup script if needed
+// console.log("Running setup...");
+// execSync("npm run setup", { stdio: "inherit" }); // Replace with actual setup script if needed
 
 console.log("Project is ready! Run `cd your-repo` to get started.");
