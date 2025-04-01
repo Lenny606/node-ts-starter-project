@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 // GitHub repo details
 const GITHUB_REPO = "Lenny606/node-ts-starter-project"; // Change this
-const TARGET_DIR = "node-ts-starter-project"; // The folder where it will be cloned
+const TARGET_DIR = "ts"; // The folder where it will be cloned
 
 // Check if git is installed
 try {
@@ -22,11 +22,11 @@ try {
 }
 
 // Clone repository
-// console.log("Cloning repository...");
-// execSync(`git clone https://github.com/${GITHUB_REPO}.git ${TARGET_DIR}`, { stdio: "inherit" });
+console.log("Cloning repository...");
+execSync(`git clone https://github.com/${GITHUB_REPO}.git ${TARGET_DIR}`, { stdio: "inherit" });
 
 // Change directory
-// process.chdir(TARGET_DIR);
+process.chdir(TARGET_DIR);
 
 // Install dependencies
 console.log("Installing dependencies...");
