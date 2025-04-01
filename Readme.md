@@ -35,6 +35,10 @@ npm init @eslint/config@latest
 npm install eslint-plugin-prettier eslint-config-prettier prettier eslint-plugin-jest --save-dev
 ```
 
+# Download starter
+```bash
+npx github:Lenny606/node-ts-starter-project
+```
 ## Available Scripts
 
 - `npm run test` - Run Jest tests
