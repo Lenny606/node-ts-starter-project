@@ -5,6 +5,7 @@
 https://github.com/tsconfig/bases?tab=readme-ov-file
 
 - npm i jest ts-jest @types/jest --save-dev
+-npm  i tsc-watch dotenv-cli --save-dev
 
 ## install lints
  - npm init @eslint/config@latest
