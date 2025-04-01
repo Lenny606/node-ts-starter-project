@@ -20,7 +20,10 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",
     "@tsconfig/node23": "^23.0.1",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.13.17",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.1",
     "typescript": "^5.8.2"
   }
 }
