@@ -8,7 +8,6 @@ const config = {
   transform: {
     '^.+\\.ts$': 'ts-jest'
   },
-  testMatch: ['**/src/tests/**/*.test.ts'],
   verbose: true,
   collectCoverage: true,
   coverageDirectory: 'coverage'
