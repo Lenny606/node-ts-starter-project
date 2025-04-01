@@ -1,17 +1,53 @@
-## setup 
+# Node TypeScript Starter Project
 
-- npm init -y
-- npm i typescript @types/node @tsconfig/node23 --save-dev
-https://github.com/tsconfig/bases?tab=readme-ov-file
+A starter project for Node.js applications using TypeScript, Jest for testing, and ESLint for code quality.
 
-- npm i jest ts-jest @types/jest --save-dev
--npm  i tsc-watch dotenv-cli --save-dev
+## Prerequisites
 
-## install lints
- - npm init @eslint/config@latest
- - npm i eslint-plugin-prettier eslint-config-prettier prettier eslint-plugin-jest --save-dev
+- Node.js (v23 or higher recommended)
+- npm
 
-## cmds
-- npm run test
-- npm run build
-- node dist/index.js
+## Setup
+
+### 1. Initialize Project and Install Dependencies
+
+```bash
+# Initialize npm project
+npm init -y
+
+# Install TypeScript and related dependencies
+npm install typescript @types/node @tsconfig/node23 --save-dev
+
+# Install testing dependencies
+npm install jest ts-jest @types/jest --save-dev
+
+# Install development tools
+npm install tsc-watch dotenv-cli --save-dev
+```
+
+### 2. Code Quality Tools
+
+```bash
+# Initialize ESLint configuration
+npm init @eslint/config@latest
+
+# Install linting and formatting tools
+npm install eslint-plugin-prettier eslint-config-prettier prettier eslint-plugin-jest --save-dev
+```
+
+## Available Scripts
+
+- `npm run test` - Run Jest tests
+- `npm run build` - Build the TypeScript project
+- `node dist/index.js` - Run the compiled JavaScript
+
+## Configuration
+
+This project uses the following configuration files:
+- `tsconfig.json` - TypeScript configuration
+- `.eslintrc.js` - ESLint configuration
+- `jest.config.js` - Jest configuration
+
+## License
+
+MIT
