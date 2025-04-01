@@ -10,3 +10,7 @@ https://github.com/tsconfig/bases?tab=readme-ov-file
  - npm init @eslint/config@latest
  - npm i eslint-plugin-prettier eslint-config-prettier prettier eslint-plugin-jest --save-dev
 
+## cmds
+- npm run test
+- npm run build
+- node dist/index.js
